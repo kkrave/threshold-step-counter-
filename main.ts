@@ -44,7 +44,7 @@ function detectThresholdCrossing () {
     return A_XOR_B
 }
 function Set_Threshold_Variables () {
-    threshold_variable = 0
+    threshold_variable = input.acceleration(Dimension.X)
     threshold_value = 0
     sample_delayms = 0
     cooldown_timems = 0
